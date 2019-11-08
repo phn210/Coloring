@@ -96,7 +96,7 @@ int main()
     int i=0,j=0;
     int n1,n2;//n1 la so dinh, n2 la so canh
     ifstream input;
-    input.open("Dothi.txt");
+    input.open("Dothi.txt");//file Dothi.txt giong nhu trong de bai
     input >> n1 >> n2;
 
     int **canh;
